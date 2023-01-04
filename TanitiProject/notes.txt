@@ -1,0 +1,89 @@
+<div class="home">Home</div>
+<div class="things">Things to do</div>
+<div class="book">Booking</div>
+<div class="faq">FAQ</div>
+
+<div class="navbar"> <img src="img/navbar2.jpg">
+  <ul class="nav">
+      <li><a href="home.html">Home</a></li>
+      <li><a href="dining.html">Things to do</a></li>
+      <li><a href="booking.html">Book</a></li>
+      <li><a href="faq.html">FAQ</a></li>
+    </ul>
+</div>
+
+.navbar{
+  width:100%;
+  position: relative;
+}
+.home{
+  position:absolute;
+  display: inline;
+  color:#0d4d4d;
+  top:5%;
+  left:3%;
+  text-align: center;
+  padding-top:1%;
+}
+.home:hover{
+  color:white
+  background-color:#0d4d4d;
+}
+.things{
+  display: inline-block;
+  position:absolute;
+  color:#0d4d4d;
+  top:5%;
+  left:3%;
+  text-align: center;
+  padding-top:1%;
+}
+.things:hover{
+  color:white
+  background-color:#0d4d4d;
+}
+.book{
+    display: inline-block;
+  position:absolute;
+  color:#0d4d4d;
+  top:5%;
+  left:3%;
+  text-align: center;
+  padding-top:1%;
+}
+.book:hover{
+  color:white
+  background-color:#0d4d4d;
+}
+.faq{
+    display: inline-block;
+  position:absolute;
+  color:#0d4d4d;
+  top:5%;
+  left:3%;
+  text-align: center;
+  padding-top:1%;
+}
+.faq:hover{
+  color:white
+  background-color:#0d4d4d;
+}
+.nav {
+  list-style-type: none;
+  text-align: center;
+}
+.nav li {
+  display: inline-block;
+  font-size: 20px;
+  padding: 20px;
+}
+
+<div id="volcano">
+  <div id="volcanoimg"><img src="img/volcano.jpg"></div>
+  <div id="volcanotxt"></div>
+  </div>
+<div id="waterfall"><img src="img/waterfall.jpg"></div>
+
+<img src="img/waterfall.jpg">
+
+<p>Some text</p>
